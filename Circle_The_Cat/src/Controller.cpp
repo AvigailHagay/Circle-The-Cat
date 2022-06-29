@@ -96,8 +96,6 @@ std::vector < sf::Vector2f>Controller::createNewLevel(const int level) {
 		//grill the marked hexagon
 		int a = rand() % ((RANGE_LEVEL + level) + 1 - (MAX_LEVEL - level)) + (MAX_LEVEL - level);
 		int b = rand() % ((RANGE_LEVEL + level) + 1 - (MAX_LEVEL - level)) + (MAX_LEVEL - level);
-		//so the marked hexagon wont be on the cat position 
-		//and on other marked hexagon
 		if (a == START_CAT_POS && b == START_CAT_POS || !uniquePt(a, b, levelInfo))
 			i--;
 		else
