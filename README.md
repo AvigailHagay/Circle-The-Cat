@@ -1,23 +1,29 @@
 Circle the Cat Game
 
-Circle the Cat is a fun and challenging game where the player competes against a computer's cat. The objective of the game is to surround the cat with a ring of blocks, trapping it in the center.
+Welcome to Circle the Cat, a fun and challenging game where the user plays against the computer. The objective of the game is for the user to successfully circle the computer's cat while avoiding being caught by it.
 
-The game uses a modified version of the Breadth-First Search (BFS) algorithm, for the computer's cat to move on the grid. This ensures that the cat's movements are optimized and challenging for the user to trap.
+How to play
 
-How to Play
+The game is played on a grid where the user controls a cursor and the computer controls the cat. The user's goal is to surround the cat with their cursor, trapping it and winning the game. The cat, controlled by the computer, will move around the grid in an attempt to evade the user's cursor.
 
-The game is played on a grid where the computer's cat can move around. The player can place blocks on the grid by clicking on an empty space. The cat will move around the grid trying to avoid being trapped by the player's blocks.
+The user controls the cursor using the arrow keys on their keyboard, and can move it up, down, left, or right on the grid. The cat's movements are determined by an algorithm, specifically the Breadth-First Search algorithm, which allows it to move strategically and avoid the user's cursor.
 
-The player wins if they are able to surround the cat with a complete ring of blocks, trapping it in the center. The computer wins if the cat is able to move around the grid without being trapped.
+The game is won when the user successfully surrounds the cat with their cursor, trapping it. If the cat catches the user's cursor, the game is lost.
 
 Tips and Tricks
 
-Plan ahead and think about the cat's movements before placing blocks.
-Try to predict where the cat will move and block off those spaces.
-Keep an eye on the cat's movements and adjust your strategy accordingly.
-Use the blocks strategically to trap the cat in a corner.
-Be patient and don't rush, a well thought out strategy will give you a better chance of winning.
+Keep an eye on the cat's movements and try to predict where it will go next
+Don't rush and take your time to plan your moves
+Use walls and obstacles on the grid to your advantage
+
+Technical Information
+
+The game uses a modified version of the Breadth-First Search (BFS) algorithm, for the computer's cat to move on the grid. This ensures that the cat's movements are optimized and challenging for the user to trap.
+The game is built using the SFML library for graphics and user input, and data structures such as queue and sets to implement the Breadth-First Search algorithm for the cat's movements.
 
 Conclusion
 
-Circle the Cat is a fun and challenging game that will test your strategic thinking and problem-solving skills. It's a great game for all ages and skill levels, and it's sure to provide hours of entertainment. So, download the game now and start circling that cat!
+Circle the Cat is a fun and challenging game that requires strategy and patience. It's a great way to test your problem solving skills while having fun. Good luck and have fun!
+
+
+
