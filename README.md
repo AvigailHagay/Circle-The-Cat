@@ -1,4 +1,5 @@
-Circle the Cat Game
+# Circle the Cat Game
+Author: Avigail Hagay
 
 Circle the Cat is a game where the user plays against the computer. The user's objective is to circle the computer's cat while the computer tries to escape. The game is based on the Breadth-First Search (BFS) algorithm and implemented using C++ and the Standard Template Library (STL). The game also uses the SFML library for graphics and user interface.
 
