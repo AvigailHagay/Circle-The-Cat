@@ -7,7 +7,7 @@ const unsigned int NUM_OF_SOUNDS = 6;
 const unsigned int NUM_OF_ICONS = 5;
 
 // window data
-const int COL_SIZE_OF_WINDOW = 1800;
+const int COL_SIZE_OF_WINDOW = 900;
 const int ROW_SIZE_OF_WINDOW = COL_SIZE_OF_WINDOW / 1.5;
 
 // controller data
